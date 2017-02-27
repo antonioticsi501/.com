@@ -1,0 +1,182 @@
+@font-face
+{
+	font-weight: 0;
+	font-style: 0;
+}
+
+.Contenido1
+{
+	background: #5F9EA0;
+	width: 97%;
+}
+.imagen1
+{
+	background:#00FFFF ;
+	width: 30%;
+	display: inline-block;
+}
+.texto1
+{
+	background:#00FFFF ;
+	width: 60%;
+	display: inline-block;
+}
+
+div
+{
+	width: 83%;
+	display: inline-block;
+	vertical-align: top;
+	background:#B1AA32  ;
+	min-height: 30px;
+	border-radius: 0.3em;
+	margin:0.3em auto;
+}
+nav ul
+{
+	list-style: none;
+	padding:0px;
+	margin:0px;		
+	background-color:blue;
+	
+}
+
+nav li 
+{
+	display: inline-block;
+	
+}
+
+nav li a
+{
+	
+	display: inline-block;
+	
+	magin: 0 1.5em 0 0;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	transition:all 0.5s ease;
+	color: aqua;
+}
+
+nav li a:hover
+{
+    background:#FF0000;
+	color: aqua;
+    -webkit-transform: scale(1.2) rotate(-5deg);
+	text-align:right;
+}
+
+.img1
+{
+	width:13%;
+	display: inline-block;
+}
+.logo
+{
+	width:13%;
+	display: inline-block;
+	
+}
+
+.contenedor
+{
+	width: 83%;
+	display: inline-block;
+	vertical-align: top;
+	background:#30A76F ;
+	min-height: 30px;
+	
+}
+
+body/*color de fondo*/
+{
+	
+	background:   #e5e7e9   ;
+	font-family:  Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 2em;
+}
+
+h1
+{
+	color:darkslategray;
+	margin:0.25 auto;
+	text-align: center;
+	font-size: 1.25em;
+	
+}
+
+h2
+{
+	color:cornflowerblue;
+	margin:0.10 auto;
+	text-align:left;
+	font-size: 0.65em;
+	
+}
+
+
+h3
+{
+	color:black;
+	margin:0.10 auto;
+	text-align:left;
+	font-size: 0.45em;
+	
+}
+
+	
+}
+header, nav,footer
+{
+	background: #f7f9f9  ;
+	border-radius: 0.3em;
+	margin:0.3em auto;
+	width:91%;
+	padding:0.25em;
+	text-align: center;
+}
+
+section.Contenedor
+{
+	margin:0.3em auto;
+	width:95%;
+	pedding:0;
+	text-align: center;
+}
+
+section.Principal,aside
+{
+	display:inline-block;
+	background:  #d0d3d4  ;
+	border-radius: 0.5em;
+	margin: :0.25em auto;
+	width:65%;
+	padding:0.1em;
+	text-align: center;
+	vertical-align: top;
+	min-height: 150px;
+}
+article
+{
+	background:#f7f9f9 ;
+	border-radius: 0.5em;
+	min-height: 100px;
+	padding:0.25em;
+	margin: 0.25em;
+	
+}
+article.article1
+{
+	background:#f7f9f9 ;
+	border-radius: 0.5em;
+	min-height: 10px;
+	padding:0.25em;
+	margin: 0.25em;
+	
+}
+aside
+{
+	width: 30%;
+	min-height: 490px;
+}
